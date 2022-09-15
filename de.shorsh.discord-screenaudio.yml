@@ -12,6 +12,7 @@ finish-args:
   - --socket=pulseaudio
   - --filesystem=xdg-run/pipewire-0
   - --device=all
+  - --filesystem=host
   - --env=QTWEBENGINEPROCESS_PATH=/app/bin/QtWebEngineProcess
 modules:
   - name: discord-screenaudio
